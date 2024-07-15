@@ -92,7 +92,7 @@ main{
 
 footer{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     background-color: #1822b8;
     justify-items: center;
     padding: 40px;
@@ -104,5 +104,17 @@ footer a{
 }
 
 footer a:hover{
-    border-color: black;
+    background-color: black;
+}
+
+.site-plan{
+    grid-column: 1/2;
+}
+
+.contact{
+    grid-column: 2/3;
+}
+
+.about{
+    grid-column: 3/4
 }
