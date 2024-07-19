@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Battle</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <img class="icon" src="images/icon.png" alt="icon-img">
-        <a href="index.html">Home</a>
-        <a href="characters.html">Characters</a>
-        <a href="tracks.html">Tracks</a>
+        <div>
+            <nav>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/icon.png" alt="Mario Logo">
+                </a>
+                <a href="characters.html">Characters</a>
+                <a href="tracks.html">Tracks</a>
+                <a href="battle.html">Battle</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h1>Big Donut</h1>
-        <img src="images/big-donut.JPG" alt="big-donut">
-        <h1>Block Fort</h1>
-        <img src="images/block-forts.JPG" alt="block-fort">
-        <h1>Double Deck</h1>
-        <img src="images/double-decker.JPG" alt="double-decker">
-        <h1>Skyscraper</h1>
-        <img src="images/skyscraper.JPG" alt="skyscraper">
+    <main class="battle">
+        <div class="battle-maps">
+            <img class="battle-track1" src="images/big-donut.JPG" alt="big-donut">
+            <img class="battle-track2" src="images/block-forts.JPG" alt="block-fort">
+            <img class="battle-track3" src="images/double-decker.JPG" alt="double-decker">
+            <img class="battle-track4" src="images/skyscraper.JPG" alt="skyscraper">
+        </div>
+        <div class="battle-names">        
+            <h2 class="battle-track1">Big Donut</h2>
+            <h2 class="battle-track2">Block Fort</h2>
+            <h2 class="battle-track3">Double Deck</h2>
+            <h2 class="battle-track4">Skyscraper</h2>
+        </div>
     </main>
     <footer>
         <a class="site-plan" href="site-plan.html">Site-Plan</a>

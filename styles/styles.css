@@ -54,29 +54,67 @@ nav a:hover {
 }
 
 .characters{
-    grid-column: 2/3;
     color: var(--accent3-color);
 }
 
 .tracks{
-    grid-column: 3/4;
+
     color: var(--accent3-color);
 }
 
 .battle{
-    grid-column: 4/5;
     color: var(--accent3-color);
 }
 
-main{
+.Racers{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
 
-.mario-home{
-    grid-column: 2/3;
+.battle {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    color: black;
+}
+
+.battle-maps, .battle-names {
+    display: flex;
+    justify-content: space-around;
+}
+
+.battle-tracks {
+    grid-row: 1/2;
+}
+
+.battle-names {
     grid-row: 2/3;
+}
+
+.racer-imgs1, .racer-imgs2, .racer-names1, .racer-names2 {
+    display: flex;
+    justify-content: space-around;
+}
+.racer-names1 {
+    grid-row: 2/3;
+}
+.racer-imgs2 {
+    grid-row: 3/4;
+}
+.racer-names2 {
+    grid-row: 4/5;
+}
+
+.summary {
+    /* grid-column: 1/4; */
+    grid-row: 5/6;
+}
+
+
+
+.mario-img{ 
+    text-align: center;
 }
 
 .title{
