@@ -159,11 +159,16 @@ nav a:hover {
     grid-row: 3/4;
 }
 
+.after {
+    display: grid;
+    text-align: center;
+}
+
 footer{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     background-color: #1822b8;
-    justify-items: center;
+    text-align: center;
     padding: 40px;
 }
 
@@ -174,16 +179,4 @@ footer a{
 
 footer a:hover{
     background-color: black;
-}
-
-.site-plan{
-    grid-column: 1/2;
-}
-
-.contact{
-    grid-column: 2/3;
-}
-
-.about{
-    grid-column: 3/4
 }
