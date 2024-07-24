@@ -79,17 +79,48 @@ nav a:hover {
     color: black;
 }
 
-.battle-maps, .battle-names {
+.tracks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimix(340px, 1fr));
+    text-align: center;
+    color: black;
+}
+
+.battle-maps, .battle-names, .tracks1, .tracks2, .tracks3, .tracks4, .track-names-1, .track-names-2, .track-names-3, .track-names-4 {
     display: flex;
     justify-content: space-around;
 }
 
-.battle-tracks {
+.battle-tracks, .tracks1 {
     grid-row: 1/2;
 }
 
-.battle-names {
+.battle-names, .track-names-1{
     grid-row: 2/3;
+}
+
+.tracks2 {
+    grid-row: 3/4;
+}
+
+.track-names-2 {
+    grid-row: 4/5;
+}
+
+.tracks3 {
+    grid-row: 5/6;
+}
+
+.track-names-3 {
+    grid-row: 6/7;
+}
+
+.tracks4 {
+    grid-row: 7/8;
+}
+
+.track-names-4 {
+    grid-row: 8/9;
 }
 
 .racer-imgs1, .racer-imgs2, .racer-names1, .racer-names2 {
